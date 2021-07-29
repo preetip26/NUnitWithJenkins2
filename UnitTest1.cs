@@ -11,7 +11,7 @@ namespace NUnitPart2Jenkins
         public void TestAdd()
         {
             int val = p.Add(5, 4);
-            Assert.AreEqual(10, val);
+            Assert.AreEqual(9, val);
         }
     }
 }
